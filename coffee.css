@@ -1,0 +1,94 @@
+:root{
+    --main-color:rgb(92, 76, 56);
+    --font-color:rgb(102, 19, 19);
+}
+body{
+    background-color: #d6d0bb;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    letter-spacing: 1.2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(245, 208, 105, 0.2);
+    padding: 50px;
+    margin:0;
+    color: var(--font-color);
+}
+button{
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(116, 29, 29);
+    border: none;
+    transition: 0.9;
+    color: white;
+    
+}
+button:hover{
+    width: 240px;
+    height: 56px;
+    transition: 0.9s;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+ul li{
+    font-weight: 700;
+    font-size: larger;
+    display: inline;
+    list-style: none;
+    margin-left: 30px;
+}
+ul{
+    margin-top:30px ;
+}
+
+header section img{
+    width: 33px;
+}
+h5{
+    margin-top: 0;
+    margin-left: 10px;
+}
+h1{
+    margin-bottom: 0;
+    
+}
+.p1{
+    font-size: larger;
+    font-weight: bold;
+    line-height: 2;
+    width: 500px;
+}
+main{
+    display: flex;
+}
+footer{
+    font-size: small;
+    text-align: center;
+    color: grey;
+}
+.sec2{
+    gap: 90px;
+    display: flex;
+    padding-bottom:400px;
+    justify-content: space-between;
+}
+.tt img{
+    height: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
